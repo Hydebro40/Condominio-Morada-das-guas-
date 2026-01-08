@@ -1,27 +1,36 @@
-# Condominio-Morada-das-aguas-
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <title>Interfone do Condomínio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial, sans-serif; background:#f5f5f5; text-align:center; }
+    body { 
+      font-family: Arial, sans-serif; 
+      background:#f5f5f5; 
+      text-align:center; 
+      margin:0;
+      padding:20px;
+    }
     h1 { color:#2c3e50; }
+    p { color:#555; }
     .grid { 
       display:grid; 
       grid-template-columns: repeat(5, 1fr); 
       gap:10px; 
-      max-width:500px; 
+      max-width:600px; 
       margin:20px auto; 
     }
     a {
       background:#25D366;
       color:white;
-      padding:15px;
+      padding:14px 5px;
       border-radius:8px;
       text-decoration:none;
       font-weight:bold;
       transition:0.2s;
+      font-size:14px;
     }
     a:hover { background:#1ebe5d; }
     footer { font-size:12px; color:#777; margin-top:20px; }
@@ -30,12 +39,12 @@
 <body>
 
 <h1>📞 Interfone do Condomínio</h1>
-<p>Selecione o apartamento:</p>
+<p>Selecione o apartamento para chamar no WhatsApp:</p>
 
 <div class="grid">
+  <!-- SUBSTITUA OS NÚMEROS DE TELEFONE (wa.me/55DDDNUMERO) -->
 
-<!-- TROQUE OS NÚMEROS PELOS DOS MORADORES -->
-<a href="https://wa.me/559999999901" target="_blank">Apto 01</a>
+  <a href="https://wa.me/559999999901" target="_blank">Apto 01</a>
   <a href="https://wa.me/559999999902" target="_blank">Apto 02</a>
   <a href="https://wa.me/559999999903" target="_blank">Apto 03</a>
   <a href="https://wa.me/559999999904" target="_blank">Apto 04</a>
@@ -76,12 +85,10 @@
   <a href="https://wa.me/559999999933" target="_blank">Apto 33</a>
   <a href="https://wa.me/559999999934" target="_blank">Apto 34</a>
   <a href="https://wa.me/559999999935" target="_blank">Apto 35</a>
-<!-- ... continue até 35 -->
-
 </div>
 
 <footer>
-Ao tocar, você será direcionado para o WhatsApp do morador.
+Escaneie o QR Code, escolha o apartamento e chame direto no WhatsApp.
 </footer>
 
 </body>
